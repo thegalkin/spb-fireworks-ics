@@ -1,0 +1,64 @@
+name: regenerate
+
+on:
+  schedule:
+    # Каждое 1-е число месяца в 03:00 UTC (06:00 МСК) —
+    # на случай поздно опубликованных постановлений о переносах.
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+  push:
+    # Пересобрать, если поправили правила СПб.
+    paths:
+      - "internal/**"
+      - "cmd/**"
+      - "data/**"
+      - "go.mod"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.23"
+
+      - name: Build & smoke test
+        run: |
+          go version
+          go build ./...
+
+      - name: Run tests
+        run: go test ./...
+
+      - name: Generate ICAL (current year)
+        run: |
+          YEAR=$(date -u +%Y)
+          NEXT=$((YEAR+1))
+          go run ./cmd/spb-fireworks -year=$YEAR -write-both-years=true -out=spb-fireworks.ics
+
+      - name: Validate ICAL syntactically
+        run: |
+          test -s spb-fireworks.ics
+          grep -q "BEGIN:VCALENDAR" spb-fireworks.ics
+          grep -q "END:VCALENDAR" spb-fireworks.ics
+          COUNT=$(grep -c "^BEGIN:VEVENT" spb-fireworks.ics)
+          ENDCOUNT=$(grep -c "^END:VEVENT" spb-fireworks.ics)
+          [ "$COUNT" = "$ENDCOUNT" ] || (echo "VEVENT count mismatch"; exit 1)
+          echo "Events: $COUNT"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet spb-fireworks.ics; then
+            echo "sp-fireworks.ics без изменений — коммит не нужен"
+          else
+            git add spb-fireworks.ics
+            git commit -m "chore: regenerate spb-fireworks.ics"
+            git push
+          fi

@@ -1,0 +1,380 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//spb-fireworks-ics//RU//ICS
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Салюты и праздники СПб 2026
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+UID:spb-blokada-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260127T180000Z
+DTEND:20260127T181500Z
+SUMMARY:Салют: годовщина снятия блокады Лени
+ нграда
+DESCRIPTION:Артиллерийский салют у стен Петро�
+ �авловской крепости (30 залпов). Бесплатно
+ .
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-feb23-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260223T180000Z
+DTEND:20260223T181500Z
+SUMMARY:Салют: День защитника Отечества
+DESCRIPTION:Праздничный салют у Петропавловск
+ ой крепости.
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-mar8-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260308
+DTEND:20260309
+SUMMARY:Международный женский день
+DESCRIPTION:Государственный праздник. Выходно
+ й.
+LOCATION:Россия
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-may9-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260509T190000Z
+DTEND:20260509T192000Z
+SUMMARY:Салют: День Победы
+DESCRIPTION:Главный салют Санкт-Петербурга. 22:0
+ 0 у стен Петропавловской крепости. Артил�
+ �ерийские залпы и фейерверк.
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-den-goroda-day-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260527
+DTEND:20260528
+SUMMARY:День города Санкт-Петербурга — днев�
+ �ая программа
+DESCRIPTION:Парад\, концерты\, ярмарки по всему 
+ городу. Бесплатно.
+LOCATION:Санкт-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-den-goroda-salyut-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260527T205500Z
+DTEND:20260527T211000Z
+SUMMARY:Салют: День города Санкт-Петербурга
+DESCRIPTION:Главный городской праздник. Салют 
+ на Петропавловской крепости в 23:55. Конце�
+ �ты\, гуляния\, развод мостов.
+LOCATION:Дворцовая площадь\, Санкт-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-den-rossii-day-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260612
+DTEND:20260613
+SUMMARY:День России
+DESCRIPTION:Государственный праздник. Выходно
+ й.
+LOCATION:Россия
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-den-rossii-salyut-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260612T190000Z
+DTEND:20260612T191500Z
+SUMMARY:Салют: День России
+DESCRIPTION:Праздничный салют у Петропавловск
+ ой крепости.
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-alye-parusa-rep-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260626T220000Z
+DTEND:20260627T010000Z
+SUMMARY:Алые паруса — генеральная репетиция
+DESCRIPTION:Ночные проходы брига «Россия» по Н
+ еве с подсветкой парусов. Бесплатно\, вид
+ но с центральных набережных.
+LOCATION:Набережные Невы\, Санкт-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-alye-parusa-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260627T200000Z
+DTEND:20260628T020000Z
+SUMMARY:Алые паруса — ночь выпускников
+DESCRIPTION:Главный городской праздник. Конце�
+ �т на Дворцовой площади (закрытая зона\, п
+ о приглашениям)\, затем водно-пиротехнич�
+ �ское шоу с бригом «Россия» под алыми пар
+ усами и фейерверк в 00:40–01:10.
+LOCATION:Дворцовая площадь + Нева\, Санкт-Пете
+ рбург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-vmf-day-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260726
+DTEND:20260727
+SUMMARY:День ВМФ — дневная программа
+DESCRIPTION:Главный военно-морской парад стра�
+ �ы: проход кораблей\, подводных лодок и ав
+ иации по Неве от Финского залива. Открыт�
+ �е мероприятия в Кронштадте.
+LOCATION:Нева\, Санкт-Петербург и Кронштадт
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-vmf-salyut-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20260726T190000Z
+DTEND:20260726T191500Z
+SUMMARY:Салют: День Военно-Морского флота
+DESCRIPTION:Праздничный салют у стен Петропав�
+ �овской крепости\, ~22:00.
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-nov4-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20261104
+DTEND:20261105
+SUMMARY:День народного единства
+DESCRIPTION:Государственный праздник. Выходно
+ й.
+LOCATION:Россия
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-blokada-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270127T180000Z
+DTEND:20270127T181500Z
+SUMMARY:Салют: годовщина снятия блокады Лени
+ нграда
+DESCRIPTION:Артиллерийский салют у стен Петро�
+ �авловской крепости (30 залпов). Бесплатно
+ .
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-feb23-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270223T180000Z
+DTEND:20270223T181500Z
+SUMMARY:Салют: День защитника Отечества
+DESCRIPTION:Праздничный салют у Петропавловск
+ ой крепости.
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-mar8-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270308
+DTEND:20270309
+SUMMARY:Международный женский день
+DESCRIPTION:Государственный праздник. Выходно
+ й.
+LOCATION:Россия
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-may9-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270509T190000Z
+DTEND:20270509T192000Z
+SUMMARY:Салют: День Победы
+DESCRIPTION:Главный салют Санкт-Петербурга. 22:0
+ 0 у стен Петропавловской крепости. Артил�
+ �ерийские залпы и фейерверк.
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-den-goroda-day-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270527
+DTEND:20270528
+SUMMARY:День города Санкт-Петербурга — днев�
+ �ая программа
+DESCRIPTION:Парад\, концерты\, ярмарки по всему 
+ городу. Бесплатно.
+LOCATION:Санкт-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-den-goroda-salyut-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270527T205500Z
+DTEND:20270527T211000Z
+SUMMARY:Салют: День города Санкт-Петербурга
+DESCRIPTION:Главный городской праздник. Салют 
+ на Петропавловской крепости в 23:55. Конце�
+ �ты\, гуляния\, развод мостов.
+LOCATION:Дворцовая площадь\, Санкт-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-den-rossii-day-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270612
+DTEND:20270613
+SUMMARY:День России
+DESCRIPTION:Государственный праздник. Выходно
+ й.
+LOCATION:Россия
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-den-rossii-salyut-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270612T190000Z
+DTEND:20270612T191500Z
+SUMMARY:Салют: День России
+DESCRIPTION:Праздничный салют у Петропавловск
+ ой крепости.
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-alye-parusa-rep-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270625T220000Z
+DTEND:20270626T010000Z
+SUMMARY:Алые паруса — генеральная репетиция
+DESCRIPTION:Ночные проходы брига «Россия» по Н
+ еве с подсветкой парусов. Бесплатно\, вид
+ но с центральных набережных.
+LOCATION:Набережные Невы\, Санкт-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-alye-parusa-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270626T200000Z
+DTEND:20270627T020000Z
+SUMMARY:Алые паруса — ночь выпускников
+DESCRIPTION:Главный городской праздник. Конце�
+ �т на Дворцовой площади (закрытая зона\, п
+ о приглашениям)\, затем водно-пиротехнич�
+ �ское шоу с бригом «Россия» под алыми пар
+ усами и фейерверк в 00:40–01:10.
+LOCATION:Дворцовая площадь + Нева\, Санкт-Пете
+ рбург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-vmf-day-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270725
+DTEND:20270726
+SUMMARY:День ВМФ — дневная программа
+DESCRIPTION:Главный военно-морской парад стра�
+ �ы: проход кораблей\, подводных лодок и ав
+ иации по Неве от Финского залива. Открыт�
+ �е мероприятия в Кронштадте.
+LOCATION:Нева\, Санкт-Петербург и Кронштадт
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-vmf-salyut-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20270725T190000Z
+DTEND:20270725T191500Z
+SUMMARY:Салют: День Военно-Морского флота
+DESCRIPTION:Праздничный салют у стен Петропав�
+ �овской крепости\, ~22:00.
+LOCATION:Пляж Петропавловской крепости\, Сан�
+ �т-Петербург
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:spb-nov4-2026@spb-fireworks-ics
+DTSTAMP:20260714T111021Z
+DTSTART:20271104
+DTEND:20271105
+SUMMARY:День народного единства
+DESCRIPTION:Государственный праздник. Выходно
+ й.
+LOCATION:Россия
+CATEGORIES:Праздники СПб,Салюты
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
